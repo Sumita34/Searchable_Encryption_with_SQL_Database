@@ -20,8 +20,8 @@ public class SearchableEncryptionServiceImpl implements SearchableEncryptionServ
 		p.setAge(15);
 		p.setDob(new Date());
 		p.setPatient_name("abc");
-		p.setPhone_no(1234567890);
-		p.setProof_id("123412341234");
+		p.setPhone_no(1124562820);
+		p.setProof_id("123511341145");
 		int pid=searchableEncryptionDAO.addPatient(p);
 		System.out.println(pid);
 		return pid;
