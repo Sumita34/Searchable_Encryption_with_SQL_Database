@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: sumita
+Build-Jdk: 11.0.11
+Implementation-Title: Mini_Project
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.cvr
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/Mini_Project
+Created-By: Maven Integration for Eclipse
+

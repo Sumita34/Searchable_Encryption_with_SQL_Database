@@ -48,5 +48,9 @@ export class AppserviceService {
     return this.http.get("http://localhost:1234/patientList");
   }
 
+  public doctorNames(sp:String){
+    const headers = new HttpHeaders().set('Content_Type', 'text/plain; charset=utf-8');
+    return this.http.get("http://localhost:1234/doctorNames/"+sp, { headers, responseType:'text' });
+  }
   
 }
